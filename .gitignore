@@ -1,0 +1,54 @@
+# Maven / Java build output
+target/
+build/
+out/
+
+# Compiled Java classes
+*.class
+
+# Packaged artifacts
+*.war
+*.ear
+*.jar
+
+# Logs
+*.log
+logs/
+
+# Temp files
+tmp/
+temp/
+*.tmp
+
+# Eclipse / Spring Tool Suite / Workspaces
+.project
+.classpath
+.settings/
+.metadata/
+
+# IntelliJ
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Tomcat runtime files
+catalina.base_IS_UNDEFINED/
+work/
+temp/
+
+# If local config files exist
+application-local.properties
+application-dev.properties
+
+# Node (if frontend assets were ever added)
+node_modules/
+
+# Optional: Oracle JDBC local jars if manually added
+lib/ojdbc*.jar
+WEB-INF/lib/ojdbc*.jar
